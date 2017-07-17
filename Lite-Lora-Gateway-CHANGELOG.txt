@@ -1,0 +1,25 @@
+=====================================================================
+USI Lite Lora-Gateway Software Package - CHANGELOG
+=====================================================================
+
+
+Changes for version 1.1
+* bug-fix
+  * Gateway ID can not be changed
+    --> Gateway ID can be changed via init_legacy_pkt_fwd() function.
+
+* New features:
+  * Enabling the indicator function for WiFi-Status LED
+
+    STATUS                 INDICATOR BEHAVIOR
+    --------------------------------------
+    DISCONNECTED           Always OFF
+    CONNECTED              Always ON
+    PACKET-FORWARDED       Blank for 500ms
+    IN-CONFIGURED          Blink 3 times/sec
+    REBOOTING              Blink 2 times/sec
+
+  * Enabling the software reset button
+
+    Enabling WIFI Configure --> Hold button for 5 seconds from power cycle ON (or RESET).
+
