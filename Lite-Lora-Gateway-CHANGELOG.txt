@@ -2,6 +2,16 @@
 USI Lite Lora-Gateway Software Package - CHANGELOG
 =====================================================================
 
+Changes for version 1.2
+
+* New features:
+  * Move gateway settings below in DCT and can be modified by webpage.
+    - Gateway ID
+    - Gateway URL
+    - Gateway UDP port for UP-Link
+    - Gateway UDP port for DOWN-Link
+
+
 
 Changes for version 1.1
 * bug-fix
